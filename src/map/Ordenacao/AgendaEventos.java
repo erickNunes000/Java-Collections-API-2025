@@ -25,7 +25,7 @@ public class AgendaEventos {
         Map<LocalDate,Evento>eventostreeMap = new TreeMap<>(agenda);
         System.out.println(eventostreeMap);
     }
-    public void obterProximoEvento(){
+    public void obterProximoEvento(){//teste
         LocalDate dataAtual = LocalDate.now();
         Map<LocalDate,Evento>eventostreeMap = new TreeMap<>(agenda);
         System.out.println(eventostreeMap);
